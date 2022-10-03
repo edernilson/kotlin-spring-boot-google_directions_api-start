@@ -1,0 +1,157 @@
+{
+  "geocoded_waypoints" : [
+    {
+      "geocoder_status" : "OK",
+      "place_id" : "ChIJxYF4YnBJxwcR21NAP1aah-g",
+      "types" : [ "street_address" ]
+    },
+    {
+      "geocoder_status" : "OK",
+      "place_id" : "ChIJoTRcm3dJxwcRQwyIiqbEirA",
+      "types" : [ "street_address" ]
+    }
+  ],
+  "routes" : [
+    {
+      "bounds" : {
+        "northeast" : {
+          "lat" : -3.7343691,
+          "lng" : -38.5577482
+        },
+        "southwest" : {
+          "lat" : -3.7391516,
+          "lng" : -38.5597275
+        }
+      },
+      "copyrights" : "Map data ©2022 Google",
+      "legs" : [
+        {
+          "distance" : {
+            "text" : "0.8 km",
+            "value" : 846
+          },
+          "duration" : {
+            "text" : "4 mins",
+            "value" : 240
+          },
+          "end_address" : "Av. Bezerra de Menezes, 1465 - Farias Brito, Fortaleza - CE, 60325-004, Brazil",
+          "end_location" : {
+            "lat" : -3.7343691,
+            "lng" : -38.5578225
+          },
+          "start_address" : "Rua General Piragibe, 485 - Parquelândia, Fortaleza - CE, 60450-255, Brazil",
+          "start_location" : {
+            "lat" : -3.7388408,
+            "lng" : -38.5577618
+          },
+          "steps" : [
+            {
+              "distance" : {
+                "text" : "9 m",
+                "value" : 9
+              },
+              "duration" : {
+                "text" : "1 min",
+                "value" : 2
+              },
+              "end_location" : {
+                "lat" : -3.7389177,
+                "lng" : -38.5577482
+              },
+              "html_instructions" : "Head \u003cb\u003esouth\u003c/b\u003e on \u003cb\u003eRua General Piragibe\u003c/b\u003e toward \u003cb\u003eR. Padre Guerra\u003c/b\u003e",
+              "polyline" : {
+                "points" : "vfyU~xijFNA"
+              },
+              "start_location" : {
+                "lat" : -3.7388408,
+                "lng" : -38.5577618
+              },
+              "travel_mode" : "DRIVING"
+            },
+            {
+              "distance" : {
+                "text" : "0.1 km",
+                "value" : 123
+              },
+              "duration" : {
+                "text" : "1 min",
+                "value" : 19
+              },
+              "end_location" : {
+                "lat" : -3.7391516,
+                "lng" : -38.558831
+              },
+              "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e at the 1st cross street onto \u003cb\u003eR. Padre Guerra\u003c/b\u003e",
+              "maneuver" : "turn-right",
+              "polyline" : {
+                "points" : "fgyU|xijF@HJn@^|C"
+              },
+              "start_location" : {
+                "lat" : -3.7389177,
+                "lng" : -38.5577482
+              },
+              "travel_mode" : "DRIVING"
+            },
+            {
+              "distance" : {
+                "text" : "0.5 km",
+                "value" : 498
+              },
+              "duration" : {
+                "text" : "3 mins",
+                "value" : 160
+              },
+              "end_location" : {
+                "lat" : -3.7347654,
+                "lng" : -38.5597275
+              },
+              "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eRua Dom José Lourenço\u003c/b\u003e",
+              "maneuver" : "turn-right",
+              "polyline" : {
+                "points" : "thyUt_jjFwARe@F_BLwANSBSBwAV{Ej@o@Hm@F{@JWDg@H"
+              },
+              "start_location" : {
+                "lat" : -3.7391516,
+                "lng" : -38.558831
+              },
+              "travel_mode" : "DRIVING"
+            },
+            {
+              "distance" : {
+                "text" : "0.2 km",
+                "value" : 216
+              },
+              "duration" : {
+                "text" : "1 min",
+                "value" : 59
+              },
+              "end_location" : {
+                "lat" : -3.7343691,
+                "lng" : -38.5578225
+              },
+              "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eAv. Bezerra de Menezes\u003c/b\u003e/\u003cwbr/\u003e\u003cb\u003eRod. Pres. Juscelino Kubitschek\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003eDestination will be on the right\u003c/div\u003e",
+              "maneuver" : "turn-right",
+              "polyline" : {
+                "points" : "hmxUhejjFUcBS_BE]_@{C"
+              },
+              "start_location" : {
+                "lat" : -3.7347654,
+                "lng" : -38.5597275
+              },
+              "travel_mode" : "DRIVING"
+            }
+          ],
+          "traffic_speed_entry" : [],
+          "via_waypoint" : []
+        }
+      ],
+      "overview_polyline" : {
+        "points" : "vfyU~xijFNA@Hj@lE}BZwD\\g@FwAV{Ej@}APsAPg@HUcBY}B_@{C"
+      },
+      "summary" : "Rua Dom José Lourenço and Av. Bezerra de Menezes/Rod. Pres. Juscelino Kubitschek",
+      "warnings" : [],
+      "waypoint_order" : []
+    }
+  ],
+  "status" : "OK"
+}

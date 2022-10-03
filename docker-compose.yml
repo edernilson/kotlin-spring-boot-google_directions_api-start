@@ -1,0 +1,26 @@
+version: "3"
+
+services:
+  db:
+    image: postgres:11
+    container_name: 'ctr-db'
+    restart: always
+    environment:
+      POSTGRES_PASSWORD: 12345678
+      POSTGRES_DB: 'ctr'
+    ports:
+      - "8090:5432"
+    volumes:
+      - ~/.docker-conf/ctr-postgresql:/var/lib/postgresql/data
+
+  pgadmin4:
+    image: dpage/pgadmin4
+    container_name: 'ctr-pgadmin4'
+    environment:
+      PGADMIN_DEFAULT_EMAIL: "guest@guest.com"
+      PGADMIN_DEFAULT_PASSWORD: "12345678"
+    ports:
+      - "5001:80"
+    depends_on:
+      - db
+      
